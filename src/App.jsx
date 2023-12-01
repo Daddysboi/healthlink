@@ -16,7 +16,10 @@ function App() {
   }, []);
 
   return (
+    <div>
+<img src="src\assets\images\favicon.png" alt="" />
     <p>{did}</p>
+    </div>
   );
 }
 
