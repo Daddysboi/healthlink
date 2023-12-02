@@ -1,6 +1,9 @@
 import { Web5 } from "@web5/api/browser";
 import React, { useEffect, useState } from "react";
 
+import Header from "./components/Header";
+import Banner from "./components/Banner";
+
 function App() {
   const [web5, setWeb5] = useState(null);
   const [did, setDid] = useState(null);
@@ -17,8 +20,9 @@ function App() {
 
   return (
     <div>
-<img src="src\assets\images\favicon.png" alt="" />
-    <p>{did}</p>
+      <Header />
+      <Banner />
+      {/* <p>{did}</p> */}
     </div>
   );
 }

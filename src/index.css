@@ -66,3 +66,20 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: transparent;
+}
+
+body {
+  color: #FFF;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  background-color: #d4c7f4;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
